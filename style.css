@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skl {
+  width: 450px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.anato {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.skl {
+  grid-column: 2;
+  position: relative;
+}
+
+#one {
+  /* background-color: aqua; */
+  grid-column: 2;
+  margin: 30px 0 0 80px;
+  padding: 35px;
+  background-size: cover;
+  position: absolute;
+}
+
+
+#two {
+  /* background-color: aqua; */
+  margin: 115px 0 0 65px;
+  padding: 50px;
+  background-size: 400px;
+  position: absolute;
+  grid-column: 2;
+}
+
+#three {
+  /* background-color: lawngreen; */
+  padding: 60px 8px;
+  position: absolute;
+  margin: 140px 0 0 40px;
+  background-size: 250px;
+}
+
+#four {
+  /* background-color: lawngreen; */
+  padding: 60px 8px;
+  position: absolute;
+  margin: 268px 0 0 35px;
+  /* background-position: center; */
+  background-size: 500px 400px;
+}
+
+#five {
+  /* background-color: lawngreen; */
+  padding: 40px;
+  margin: 268px 0 0 75px;
+  position: absolute;
+  background-size: 470px;
+}
+
+#six {
+  /* background-color: lawngreen; */
+  padding: 80px 10px;
+  margin: 320px 0 0 70px;
+  transform: rotate(-5deg);
+  position: absolute;
+  background-size: 322px;
+}
+
+#seven {
+  /* background-color: lawngreen; */
+  padding: 80px 10px;
+  margin: 480px 0 0 75px;
+  position: absolute;
+  background-size: 390px;
+  /* background-position: center; */
+}
