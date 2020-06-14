@@ -3,7 +3,7 @@ document.getElementById("one").onmouseout = hideIm;
 
 const d1 = document.getElementById("one");
 function showIm() {
-  d1.style.backgroundImage = "url('skull.jpg')";
+  d1.style.backgroundImage = "url('imgs/skull.jpg')";
   d1.style.backgroundRepeat = "none"
   d1.style.padding = "300px";
   d1.style.margin = "20px 0 0 -350px"
@@ -26,7 +26,7 @@ document.getElementById("two").onmouseout = hideIm2;
 
 const d2 = document.getElementById("two");
 function showIm2() {
-  d2.style.backgroundImage = "url('sternum.jpg')";
+  d2.style.backgroundImage = "url('imgs/sternum.jpg')";
   d2.style.backgroundRepeat = "no-repeat"
   d2.style.padding = "200px 200px 100px 200px";
   d2.style.transition = ".3s all ease-in-out";
@@ -48,7 +48,7 @@ document.getElementById("three").onmouseout = hideIm3;
 
 const d3 = document.getElementById("three");
 function showIm3() {
-  d3.style.backgroundImage = "url('uparm.jpg')";
+  d3.style.backgroundImage = "url('imgs/uparm.jpg')";
   d3.style.backgroundRepeat = "no-repeat"
   d3.style.padding = "150px 50px 190px 200px";
   d3.style.margin = "140px 0 0 -200px"
@@ -73,7 +73,7 @@ document.getElementById("four").onmouseout = hideIm4;
 
 const d4 = document.getElementById("four");
 function showIm4() {
-  d4.style.backgroundImage = "url('forearm.jpg')";
+  d4.style.backgroundImage = "url('imgs/forearm.jpg')";
   d4.style.backgroundRepeat = "no-repeat"
   d4.style.padding = "300px 200px 100px 300px";
   d4.style.margin = "258px 0 0 -420px"
@@ -99,7 +99,7 @@ document.getElementById("five").onmouseout = hideIm5;
 
 const d5 = document.getElementById("five");
 function showIm5() {
-  d5.style.backgroundImage = "url('pelvis.jpg')";
+  d5.style.backgroundImage = "url('imgs/pelvis.jpg')";
   d5.style.backgroundRepeat = "no-repeat"
   d5.style.padding = "300px 170px 100px 300px";
   d5.style.margin = "200px 0 0 0"
@@ -124,7 +124,7 @@ document.getElementById("six").onmouseout = hideIm6;
 
 const d6 = document.getElementById("six");
 function showIm6() {
-  d6.style.backgroundImage = "url('antfemur.jpg')";
+  d6.style.backgroundImage = "url('imgs/antfemur.jpg')";
   d6.style.backgroundRepeat = "no-repeat"
   d6.style.padding = "400px 10px 100px 300px";
   d6.style.margin = "100px 0 0 0"
@@ -151,7 +151,7 @@ document.getElementById("seven").onmouseout = hideIm7;
 
 const d7 = document.getElementById("seven");
 function showIm7() {
-  d7.style.backgroundImage = "url('antleg.jpg')";
+  d7.style.backgroundImage = "url('imgs/antleg.jpg')";
   d7.style.backgroundRepeat = "no-repeat";
   d7.style.padding = "450px 80px 0px 300px";
   d7.style.margin = "200px 0 0 -250px";
