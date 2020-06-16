@@ -124,7 +124,7 @@ document.getElementById("six").onmouseout = hideIm6;
 
 const d6 = document.getElementById("six");
 function showIm6() {
-  d6.style.backgroundImage = "url('imgs/antfemur.jpg')";
+  d6.style.backgroundImage = "url('img/antfemur.jpg')";
   d6.style.backgroundRepeat = "no-repeat"
   d6.style.padding = "400px 10px 100px 300px";
   d6.style.margin = "100px 0 0 0"
