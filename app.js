@@ -151,7 +151,7 @@ document.getElementById("seven").onmouseout = hideIm7;
 
 const d7 = document.getElementById("seven");
 function showIm7() {
-  d7.style.backgroundImage = "url('imgs/antleg.jpg')";
+  d7.style.backgroundImage = "url('imgss/antleg.jpg')";
   d7.style.backgroundRepeat = "no-repeat";
   d7.style.padding = "450px 80px 0px 300px";
   d7.style.margin = "200px 0 0 -250px";
