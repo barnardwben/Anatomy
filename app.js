@@ -170,3 +170,51 @@ function hideIm7() {
   d7.style.border = "none";
   d7.style.zIndex = "0";
 }
+document.getElementById("eight").onclick = showIm8;
+document.getElementById("eight").onmouseout = hideIm8;
+
+const d8 = document.getElementById("eight");
+function showIm8() {
+  d8.style.backgroundImage = "url('imgs/postskl.jpg')";
+  d8.style.backgroundRepeat = "no-repeat";
+  d8.style.padding = "490px 20px 0px 500px";
+  d8.style.margin = "30px 0 0 300px";
+  d8.style.transition = ".3s all ease-in-out";
+  d8.style.transform = "rotate(0deg)";
+  d8.style.border = "1px solid black";
+  d8.style.zIndex = "10";
+  // d2.style.objectFit = "cover"
+}
+
+function hideIm8() {
+  d8.style.backgroundImage = "none";
+  d8.style.padding = "40px 40px";
+  d8.style.margin = "30px 0 0 300px"
+  d8.style.transition = ".3s all ease-in-out";
+  d8.style.border = "none";
+  d8.style.zIndex = "0";
+}
+document.getElementById("nine").onclick = showIm9;
+document.getElementById("nine").onmouseout = hideIm9;
+
+const d9 = document.getElementById("nine");
+function showIm9() {
+  d9.style.backgroundImage = "url('imgs/posteriorspine.jpg')";
+  d9.style.backgroundRepeat = "no-repeat";
+  d9.style.padding = "430px 20px 0px 560px";
+  d9.style.margin = "30px 0 0 300px";
+  d9.style.transition = ".3s all ease-in-out";
+  d9.style.transform = "rotate(0deg)";
+  d9.style.border = "1px solid black";
+  d9.style.zIndex = "10";
+  // d2.style.objectFit = "cover"
+}
+
+function hideIm9() {
+  d9.style.backgroundImage = "none";
+  d9.style.padding = "80px 20px";
+  d9.style.margin = "120px 0 0 315px"
+  d9.style.transition = ".3s all ease-in-out";
+  d9.style.border = "none";
+  d9.style.zIndex = "0";
+}
