@@ -221,9 +221,3 @@ function hideIm9() {
 }
 
 
-document.getElementById("ten").onclick = showIm10;
-document.getElementById("ten").onmouseout = hideIm10;
-
-const d10 = document.getElementById("ten");
-
-
