@@ -237,12 +237,3 @@ function showIm10() {
   // d2.style.objectFit = "cover"
 }
 
-function hideIm10() {
-  d10.style.backgroundImage = "none";
-  d10.style.padding = "40px 20px";
-  d10.style.margin = "140px 0 0 285px"
-  d10.style.transition = ".3s all ease-in-out";
-  d10.style.border = "none";
-  d10.style.zIndex = "0";
-}
-
