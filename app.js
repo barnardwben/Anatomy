@@ -225,15 +225,5 @@ document.getElementById("ten").onclick = showIm10;
 document.getElementById("ten").onmouseout = hideIm10;
 
 const d10 = document.getElementById("ten");
-function showIm10() {
-  d10.style.backgroundImage = "url('imgs/.jpg')";
-  d10.style.backgroundRepeat = "no-repeat";
-  d10.style.padding = "430px 20px 0px 560px";
-  d10.style.margin = "30px 0 0 300px";
-  d10.style.transition = ".3s all ease-in-out";
-  d10.style.transform = "rotate(0deg)";
-  d10.style.border = "1px solid black";
-  d10.style.zIndex = "10";
-  // d2.style.objectFit = "cover"
-}
+
 
