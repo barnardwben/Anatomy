@@ -96,9 +96,20 @@
 }
 #nine {
   background-color: lawngreen;
-  padding: 80px 20px;
-  margin: 120px 0 0 315px;
+  padding: 80px 8px;
+  margin: 120px 0 0 328px;
   position: absolute;
   background-size: 590px;
   /* background-position: center; */
 }
+#ten {
+  background-color: lawngreen;
+  padding: 40px 20px;
+  margin: 140px 0 0 285px;
+  position: absolute;
+  background-size: 590px;
+  /* background-position: center; */
+}
+
+
+
