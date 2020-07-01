@@ -105,10 +105,10 @@
 }
 
 #ten {
-  /* background-color: lawngreen; */
-  padding: 60px 8px;
-  margin: 140px 0 0 400px;
-  transform: rotate(-5deg);
+  background-color: lawngreen;
+  padding: 75px 8px;
+  margin: 335px 0 0 365px;
+  transform: rotate(5deg);
   position: absolute;
   background-size: 320px;
   /* background-position: center; */

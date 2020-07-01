@@ -228,8 +228,8 @@ const d10 = document.getElementById("ten");
 function showIm10() {
   d10.style.backgroundImage = "url('imgs/posfemur.jpg')";
   d10.style.backgroundRepeat = "no-repeat";
-  d10.style.padding = "430px 20px 0px 300px";
-  d10.style.margin = "30px 0 0 400px";
+  d10.style.padding = "445px 20px 0px 300px";
+  d10.style.margin = "200px 0 0 320px";
   d10.style.transition = ".3s all ease-in-out";
   d10.style.transform = "rotate(0deg)";
   d10.style.border = "1px solid black";
@@ -239,9 +239,9 @@ function showIm10() {
 
 function hideIm10() {
   d10.style.backgroundImage = "none";
-  d10.style.padding = "60px 8px";
-  d10.style.margin = "140px 0 0 400px"
-  d10.style.transform = "rotate(-5deg)"
+  d10.style.padding = "75px 8px";
+  d10.style.margin = "335px 0 0 365px"
+  d10.style.transform = "rotate(5deg)"
   d10.style.transition = ".3s all ease-in-out";
   d10.style.border = "none";
   d10.style.zIndex = "0";
