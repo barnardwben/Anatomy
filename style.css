@@ -94,6 +94,7 @@
   background-size: 520px;
   /* background-position: center; */
 }
+
 #nine {
   /* background-color: lawngreen; */
   padding: 80px 8px;
@@ -103,6 +104,11 @@
   /* background-position: center; */
 }
 
-
-
-
+#ten {
+  background-color: lawngreen;
+  padding: 80px 8px;
+  margin: 120px 0 0 328px;
+  position: absolute;
+  background-size: 590px;
+  /* background-position: center; */
+}
