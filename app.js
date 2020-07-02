@@ -268,7 +268,7 @@ function hideIm11() {
   d11.style.backgroundImage = "none";
   d11.style.padding = "75px 8px";
   d11.style.margin = "490px 0 0 360px"
-  d11.style.transform = "rotate(5deg)"
+  d11.style.transform = "rotate(3deg)"
   d11.style.transition = ".3s all ease-in-out";
   d11.style.border = "none";
   d11.style.zIndex = "0";
