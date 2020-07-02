@@ -255,8 +255,8 @@ const d11 = document.getElementById("eleven");
 function showIm11() {
   d11.style.backgroundImage = "url('imgs/postfib.jpg')";
   d11.style.backgroundRepeat = "no-repeat";
-  d11.style.padding = "445px 20px 0px 300px";
-  d11.style.margin = "200px 0 0 320px";
+  d11.style.padding = "445px 0px 120px 290px";
+  d11.style.margin = "100px 0 0 320px";
   d11.style.transition = ".3s all ease-in-out";
   d11.style.transform = "rotate(0deg)";
   d11.style.border = "1px solid black";
