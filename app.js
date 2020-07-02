@@ -247,3 +247,30 @@ function hideIm10() {
   d10.style.zIndex = "0";
 }
 
+
+document.getElementById("eleven").onclick = showIm11;
+document.getElementById("eleven").onmouseout = hideIm11;
+
+const d11 = document.getElementById("eleven");
+function showIm11() {
+  d11.style.backgroundImage = "url('imgs/postfib.jpg')";
+  d11.style.backgroundRepeat = "no-repeat";
+  d11.style.padding = "445px 20px 0px 300px";
+  d11.style.margin = "200px 0 0 320px";
+  d11.style.transition = ".3s all ease-in-out";
+  d11.style.transform = "rotate(0deg)";
+  d11.style.border = "1px solid black";
+  d11.style.zIndex = "10";
+  // d2.style.objectFit = "cover"
+}
+
+function hideIm11() {
+  d11.style.backgroundImage = "none";
+  d11.style.padding = "75px 8px";
+  d11.style.margin = "490px 0 0 360px"
+  d11.style.transform = "rotate(5deg)"
+  d11.style.transition = ".3s all ease-in-out";
+  d11.style.border = "none";
+  d11.style.zIndex = "0";
+}
+
